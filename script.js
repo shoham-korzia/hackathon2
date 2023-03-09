@@ -10,3 +10,5 @@ fetch('https://unogs-unogs-v1.p.rapidapi.com/search/deleted', options)
 	.then(response => response.json())
 	.then(response => console.log(response))
 	.catch(err => console.error(err));
+
+	
